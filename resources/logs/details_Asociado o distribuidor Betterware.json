@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "id": 116,
+      "title": "Asociado o distribuidor Betterware",
+      "categories": [
+        "45"
+      ],
+      "tracking": {
+        "clickCode": "eyJpdiI6IjZoMXhrZWJHZTV3UXpKWEg1SkhrOVE9PSIsInZhbHVlIjoiNEpPS3orWGFFbGNUdjBFWFlKQjl3QTg4b0dtWkxsaDVTR2hidEkrNHhhUWlpc21EdzMzTVdDbXJERWFjQzl0WmpMZVZLVkNFWHF4OS80dlIwNldrV2ZGSlZObWovZnpRVTJVMHJ6eXpBUThnMHZpcWdtdkxBb1N2ZGFvaE95bVgiLCJtYWMiOiI4NTBhNmQ2NjM4ZDE5ZDJiY2I3ZjkzZjhlNmM0YTNjYjhkZWFjY2UzYWQ5ZjhmYmE1YzU2MjY1MTE0OWJiYWMwIiwidGFnIjoiIn0=",
+        "rateCode": "eyJpdiI6IlZKcFY3ZkpabjB4ekltdHpOUkZ1L1E9PSIsInZhbHVlIjoid04wVGxGVDZPeU1RTWZiOUZITDVCbWpYdzJSb2VDdG11KzBhNkVhZm0yazJ4ZzZyV2JRNEJiUnYrOG5EVWRjbCtrQmtCSkhoYW9OYjB0LzVKZVhwWVpFZ1h4QTUyWmIrcnBkS1QzRWI0K1VsSk10WjdzK1RxdXkyWDR2cnZhOFciLCJtYWMiOiIxNTRjODczYTllOWU3NTEzMmZkNTdmYWM5NjQ4YWU5YmE1NTc4NDk3Njg5YTI1ZTY1OTVkZGEyYjIwNWE0NTJmIiwidGFnIjoiIn0=",
+        "externalCode": "eyJpdiI6Im9sdEk1Qmp4MEMvd1pLU3hqTzhpZkE9PSIsInZhbHVlIjoiNnA3QnJqSURHVjdBYXpLSUdJNlBkNmZBRGlWRW1DRFkyS3dqWDZoUDV3d0x6aEdIeTNEMEJ0bzUrazJoT2JFNU56cHZkN29xOXVqeExpZlhuTldrS2dwb0ROQnUvRUNaRkwvazg4WThZYldaaWV4NnM2cFdRUnpXREdxMzZJRTdrSVNteUZuekQ4Mm4wVzRQajYrM0doc2ZkT2JaZmJyNUtRTndMbE4vZ1AyYXE5cEs5NVRRWGhIdEJocE5qZ2tCR25yYWNTK2tGajNMWTF2emdGWTFEWXNTVnByNGRqeGNSbW9hWUVZdDloeU1pQUJSaUxZWGFYMVJOeCtaZWZtWiIsIm1hYyI6IjUyMTFkMDI0ZTAxNzMxOTgxYjYyNmYzYTdlZTMwZmJjNjU4YjgyMzhmN2I0Y2Y4ODNlM2Y4YmE3ZWIwZDBhNDgiLCJ0YWciOiIifQ=="
+      },
+      "hasRelated": false,
+      "hasDecisionTree": false,
+      "slug": "asociado-o-distribuidor-betterware",
+      "hasCrossSelling": false,
+      "creationDate": "20250821195350",
+      "modificationDate": "20251127195536",
+      "attributes": {
+        "ANSWER_TEXT": "<p>¡Invita a tus amigas y gana recompensas!</p>",
+        "Content_array": "Antes de compartir tu liga, asegúrate de haber ingresado correctamente tu número de celular (10 dígitos) con el que te registraste en Broxel."
+      },
+      "attributeArrays": {
+        "ANSWER_TEXT": [
+          "<p>¡Invita a tus amigas y gana recompensas!</p>"
+        ],
+        "Content_array": [
+          "7",
+          "¡Invita a quien tú quieras y gana recompensas! Gana $350 MXN por cada persona que invites a obtener su tarjeta Betterware. Tu referido recibirá $100 MXN de bienvenida. Para que ambos puedan obtener la recompensa, tu invitado deberá:",
+          "https://broxel.com/betterware",
+          "Invita y gana Betterware",
+          "https://boom.broxel.com/Register/Modular/Enrolamiento/Pre/00000000-0000-0000-0000-000000000000/d3a8f065-de5d-45f5-937b-30e3edaeb5c5/1c8877dd-bde1-4ab8-a1a7-79abb5b78f56/es#index?origen=BEFRA&CodigoReferenciacion={0}",
+          "Completar su registro usando el link que le compartas.",
+          "Gastar al menos $500 MXN con su tarjeta (en una sola compra o sumando varias), durante los primeros 30 días posteriores a su registro exitoso. Pueden ser:",
+          "Compras en comercios físicos.",
+          "Compras en línea (incluyendo el e-commerce Betterware).",
+          "Pago de servicios, incluyendo los pagos Betterware, desde la sección de “Servicios y recargas” en la App Broxel.",
+          "Las recompensas se depositan dentro de los primeros 10 días hábiles del mes siguiente.",
+          "Antes de compartir tu liga, asegúrate de haber ingresado correctamente tu número de celular (10 dígitos) con el que te registraste en Broxel."
+        ]
+      }
+    }
+  ]
+}

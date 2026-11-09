@@ -1,0 +1,88 @@
+{
+  "id": "pub_MbMvzEPBUSP2yJJx45ElUUk37F4U1tca",
+  "object": "publication",
+  "created_at": "2026-11-05T19:46:48.350Z",
+  "customer_id": "cust_P1l7jHJtTWMPx8iaYbSDilaP",
+  "tracking_id": "523453535345",
+  "metadata": {
+    "test": true,
+    "provider": "BL Admin"
+  },
+  "channel": "API",
+  "source_id": "Invita y gana Betterware523453535345",
+  "result": "SUCCESS",
+  "customer": {
+    "id": "cust_P1l7jHJtTWMPx8iaYbSDilaP",
+    "source_id": "523453535345",
+    "phone": "523453535345",
+    "address": null,
+    "summary": null,
+    "loyalty": null,
+    "loyalty_memberships": null,
+    "referrals": null,
+    "object": "customer"
+  },
+  "voucher": {
+    "id": "v_134d0bde6a084718e4h6c0N0",
+    "code": "BEP1dqkVhg",
+    "campaign": "Invita y gana Betterware",
+    "campaign_id": "camp_s2najcGK7bmB479bnDmHfi39",
+    "category": "BEFRA",
+    "category_id": "cat_112ca973de0cd53c51",
+    "categories": [
+      {
+        "id": "cat_112ca973de0cd53c51",
+        "name": "BEFRA",
+        "hierarchy": 1,
+        "created_at": "2025-09-08T23:43:07.130Z",
+        "object": "category"
+      }
+    ],
+    "type": "DISCOUNT_VOUCHER",
+    "discount": {
+      "type": "AMOUNT",
+      "amount_off": 35000,
+      "effect": "APPLY_TO_ORDER"
+    },
+    "gift": null,
+    "loyalty_card": null,
+    "start_date": null,
+    "expiration_date": null,
+    "validity_timeframe": null,
+    "validity_hours": null,
+    "validity_day_of_week": null,
+    "active": true,
+    "additional_info": null,
+    "metadata": {},
+    "assets": {
+      "qr": {
+        "id": "41771994-ffd6-419a-9b33-26a644fd8434",
+        "url": "https://us1.dl.voucherify.io/api/v1/assets/qr/41771994-ffd6-419a-9b33-26a644fd8434"
+      },
+      "barcode": {
+        "id": "05eec638-f95e-4a69-9151-0feb4f66397a",
+        "url": "https://us1.dl.voucherify.io/api/v1/assets/barcode/05eec638-f95e-4a69-9151-0feb4f66397a"
+      }
+    },
+    "is_referral_code": true,
+    "created_at": "2026-11-05T19:46:48.361Z",
+    "updated_at": null,
+    "holder_id": "cust_P1l7jHJtTWMPx8iaYbSDilaP",
+    "referrer_id": "cust_P1l7jHJtTWMPx8iaYbSDilaP",
+    "redemption": {
+      "quantity": null,
+      "redeemed_quantity": 0,
+      "object": "list",
+      "url": "/v1/vouchers/BEP1dqkVhg/redemptions?page=1&limit=10"
+    },
+    "publish": {
+      "object": "list",
+      "count": 1,
+      "url": "/v1/vouchers/BEP1dqkVhg/publications?page=1&limit=10"
+    },
+    "object": "voucher"
+  },
+  "vouchers_id": [
+    "v_134d0bde6a084718e4h6c0N0"
+  ]
+}

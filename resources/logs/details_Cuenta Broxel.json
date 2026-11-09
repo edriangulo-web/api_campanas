@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "id": 120,
+      "title": "Cuenta Broxel",
+      "categories": [
+        "999"
+      ],
+      "tracking": {
+        "clickCode": "eyJpdiI6InBvd0FKclJCbVN2aEQ3dWxJV1pqanc9PSIsInZhbHVlIjoiSE5UMDBSWEV3eTh5SkE1Vmo4SHZWZm5CcFhIc2RXR2hqTERGREtUaXYydEx0SUhZTE1iMWhsU3BLRWJSQWhDOGs5bE1ZMmpzZFZjZERWTS9RN01iUFNCWTYyMXpBVkVTa1JpVkxJY0J3Uy9DSVZWNE1ERXFuWmZ3Vmpid3VISjgiLCJtYWMiOiIxYWI1OTJiM2NlN2ViNGExY2RmYTc0NDM4YzA1ZjI0NTMxMzdhZDU1YmRjMjA0YWQ5ZGU2NDA1MmRkY2RiZmFhIiwidGFnIjoiIn0=",
+        "rateCode": "eyJpdiI6InluNDhwcVZlMktCcFFxalJLYnM1aUE9PSIsInZhbHVlIjoiTklGeDVwdW5VWnUrbWdzYzdSTzJTK2tQbnV3MTdlQ0xNekFsNm9Yb1ZLT1JXZVJkdTZGeGkwZ1BCZG1Qc1RVemxDS0lMVllmb2NXWTJuNDZjcmZtSnZOVFR2QU5Kbi90c3lMTWtnTHYzamtaRUZJSm5Jc09pSmJVM2dZREtHZ2IiLCJtYWMiOiJlMzNkNzk3YWNkMTMwMjNmYmFjYmU2ZDg4Yzc4NWFiY2UzNGY0ZDlhNWRlMWMyNjc1NTc1ZjcwNmQzNDJmYTUyIiwidGFnIjoiIn0=",
+        "externalCode": "eyJpdiI6IjBhUmdRQmhTcjZTeExQQThuTmZVK3c9PSIsInZhbHVlIjoicnIvN1ArcnAzNlpHR0tMa3N6aGJzdjAyNWM4UFZmenVFTFByQkhQdUhFSFFZcHpsZXBRbzJMZUF4alc3Ui9IbGIxcE5vRkowU2xjbkdLeVI4c1o1UllQaHpaeFV2TTNGOUxyTXIzT3FaMmtENHYzMG9zMW9SdkZTSDBIdXZuOWc3Si9aaExjKzZONC9HRk5NVktjU0N2MnZpV1FFekVkbWRoWkhqUU42UXRsUW5NMG9IU3JCUXdOSVBGeHU3bFhZNFFDV0xDUTB5WDViTVFIdVh3eVVFREI2VEpoT2EwaFRDcHhXNldVWTNJZz0iLCJtYWMiOiIwNDZlMTBmMGJlNmI0YmI4YWY1NGRkYTJhM2RjYmFjMDRlNDcwY2I1ODM5YTQwMzMwMDJkMjJkMDk1OGIwMDkwIiwidGFnIjoiIn0="
+      },
+      "hasRelated": false,
+      "hasDecisionTree": false,
+      "slug": "cuenta-broxel",
+      "hasCrossSelling": false,
+      "creationDate": "20261105120000",
+      "modificationDate": "20261105120000",
+      "attributes": {
+        "ANSWER_TEXT": "<p>¡Comparte la experiencia de la tarjeta Broxel con tu familia, amigos y conocidos!</p>",
+        "Content_array": "Nota: Antes de compartir tu enlace, asegúrate de haber ingresado correctamente tu número de celular (10 dígitos) con el que te registraste en Broxel."
+      },
+      "attributeArrays": {
+        "ANSWER_TEXT": [
+          "<p>¡Comparte la experiencia de la tarjeta Broxel con tu familia, amigos y conocidos!</p>"
+        ],
+        "Content_array": [
+          "6",
+          "¡Comparte la experiencia de la tarjeta Broxel con tu familia, amigos y conocidos! Diles que soliciten la suya registrándose en el enlace que les compartas. Compartir los beneficios es muy fácil. Para empezar a usarla, tu invitado solo deberá:",
+          "https://broxel.com/tarjeta/",
+          "Invita y gana Cuenta Broxel",
+          "https://boom.broxel.com/Register/Modular/Enrolamiento/Pre/00000000-0000-0000-0000-000000000000/d3a8f065-de5d-45f5-937b-30e3edaeb5c5/1c8877dd-bde1-4ab8-a1a7-79abb5b78f56/es#index?CodigoReferenciacion={0}",
+          "Completar su registro usando el enlace que le compartas.",
+          "Comenzar a usar su tarjeta.",
+          "La tarjeta es muy versátil y la pueden utilizar para:",
+          "Compras en comercios físicos.",
+          "Compras en línea.",
+          "Pago de servicios desde la App Broxel.",
+          "Nota: Antes de compartir tu enlace, asegúrate de haber ingresado correctamente tu número de celular (10 dígitos) con el que te registraste en Broxel."
+        ]
+      }
+    }
+  ]
+}

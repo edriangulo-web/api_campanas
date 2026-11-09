@@ -1,0 +1,71 @@
+{
+  "results": [
+    {
+      "id": 73,
+      "title": "Cuenta Broxel",
+      "categories": ["23"],
+      "tracking": {
+        "clickCode": "eyJpdiI6InBEd1h1UHJmN0JEOHIrSlpkekpEeXc9PSIsInZhbHVlIjoiRkUySlRNYU1mRGR4MWxqanNhSjVNL29LcUM4aHV0TWk4WE10T3FmeG5RdG5POGNHaHFPUVNpamxYNWZDbFZneE5FWHRHTkRJbFF6eHgwTlVPV2pJM0FuRUFiUC9uV08zVXdOajlpNkIzN3JneFBnR2ZlTlkzQzVNUzFOMWJLUlEiLCJtYWMiOiI4MWUyNDg3MmY0ZGYwMGY3YjYxN2FkZGNmMTczMDlhMTY0NjY4ZDM0YWYyOTRkNTY5ZTdhMjU4MDZhMjgzMDIwIiwidGFnIjoiIn0=",
+        "rateCode": "eyJpdiI6IlBwYlgrSnVzQUd5UVJHakZRQm5UWHc9PSIsInZhbHVlIjoiT1E1RitsU2d3eWgzaTF1eEhlL2g5NFk3b0FLbjNWclllc2hQaGV4YlRZT3hwUVRTaDF2dDNnVnhESjJCWFJiOU85RWMwaXR6YkNLZktRblFqQnFyNHo3bE9wN01VK3RzRzFFWC9GUE9FUk9kYjRGV0NueEpJYlBpMkovVWRFU3YiLCJtYWMiOiJlMTQyYTUwZjViMWE5YzYyZTgzNDY2ZmE5ZDA5MmQxYjI0NzczMzUxYmU0ZGY5NmRlNTU2YmE2NTA2OTFhMGNiIiwidGFnIjoiIn0=",
+        "externalCode": "eyJpdiI6IjNBQ0NtMjFXSkpRQkZ3SU9QS2lJRUE9PSIsInZhbHVlIjoiczFOcCtxcjF4VS9SbkVkcEJqZkljL2VMSE1qZHJIUHg2L3ptSzA0NDJVMzlPYngwemtTWXg3enpkemxMV0lHbGJCSmpHemh3NHpleEpmSS9ZejhsdUdaSnYzNFYvWnAvSGhRQ1pOakR0RTRYdTZ3TVdaTG1yS3Q5dXVqNVp0LzV5WjZGTjRwZmlubG9kSXZmZlh6bGJ4ZCs0bjZVZkFEUVJrRWJ0VEpJaDNFS0Rib1J5SjBhQVRLeXFISHVHNGlUajB0UnZ0Ykp6OG5jYndCcVI3Wno4QT09IiwibWFjIjoiMGM3YWYwZmVmMzg5NmU0MzUxMWNmZmNlYmQ5ZGI1ODY4OWRmYThjYmQ5YmZmZTBhMjM1Zjk1YjNmYWViZDdmOCIsInRhZyI6IiJ9"
+      },
+      "hasRelated": false,
+      "hasDecisionTree": false,
+      "slug": "cuenta-broxel",
+      "hasCrossSelling": false,
+      "creationDate": "20210823194842",
+      "modificationDate": "20261106201623",
+      "attributes": {
+        "ANSWER_TEXT": "<p>\u00a1Ahora compartir con tus amigos y conocidos, te hace ganar!<\/p>"
+      },
+      "attributeArrays": {
+        "ANSWER_TEXT": [
+          "<p>\u00a1Ahora compartir con tus amigos y conocidos, te hace ganar!<\/p>"
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "title": "Cuenta Broxel",
+      "categories": ["23"],
+      "tracking": {
+        "clickCode": "eyJpdiI6ImV0WGIwSE4vMEx1NTBYUzc1RVdnb1E9PSIsInZhbHVlIjoiajNqaldPYnFaOFF4dDlDSlI0M1dsRmFISGYvTmhMSnI3UUwyOTE5N0dRSmFPVVB1cFYrK2pteVR2N3BmajdCQzFIWkYzbFBwK3pZQmVkdjRGa01ld01VZ0tPSlpjRlhFakFPcFhObkEvQ0RaSjNGMTJwUVFwcjJhaXB2MUswcUEiLCJtYWMiOiIxYWQ4ZjMyZTY5ZmE3NzBjNGNmMDUxNzBlZmNiMWRiZTgwMGFmNzA1ZWU2ZWQ1NTEyNzllNDA4ZWYzMmE0NTRiIiwidGFnIjoiIn0=",
+        "rateCode": "eyJpdiI6Ing1WFd4eUZvV2tkSXB1NXM3WSs1MlE9PSIsInZhbHVlIjoibmVwbW82YUl1Y1p6Qk5EOVpLUkM1M2l5Z3F2WjlNTXN4VjNFTFdsU1l4dFBRZ1FxOUlEdzUyRktoSGRvZjdlZ01YWUlHOVAyU1czMEVpdkR0Ykw4bTNFMVJqWmlzQnlxVk4yL3hCOExyUGsva0VMbkJQSC9SSW5UcmJtbG9LWngiLCJtYWMiOiI2YjRiZjA5NWI2ODkzOTBlOTY0ODNmM2RlYWNkYzE0NGQyYzQ4NjRkZWZhNWM4MjIwMjMyNGNjZDQyZjBjNjY0IiwidGFnIjoiIn0=",
+        "externalCode": "eyJpdiI6Inh4Z0M2bCtRN0FvaFpqbzN0NUgxUEE9PSIsInZhbHVlIjoiL25uckJicy9BZzl5aEJWRjBKeUJBV3ppVUZUTEtCS0wxN1ZQOGExVkJUVzdrQVVMakEzVk81NmltQjB4M0tWdkwvRmdQOHk2SUJwQzR1Z095T3FJUnByanVaM01TNkNaUWthSVhMckVyb25jOVZRL0wrSHhaVUNNMjYydjZpRldCSW1TR3hqdHNFcmVHYVhjOUVlQW9mRHBjcHFXOE5XQy9uYlVPNnpDK2lHMjVSV0FOMW4wY1p6VlhmajBnRW5aVG5zN2E3Z0NJRGE4TkZidEF4YnA5UT09IiwibWFjIjoiNzk0YWU2Y2U2MGE3YTQxMWNhYTQzZmRmMjc2YTZjOGJiNTBjN2RjYWI2YzhlODk0YTkyYTgxYjNjMTNjYWQ3ZSIsInRhZyI6IiJ9"
+      },
+      "hasRelated": false,
+      "hasDecisionTree": false,
+      "slug": "cuenta-broxel",
+      "hasCrossSelling": false,
+      "creationDate": "20220506173635",
+      "modificationDate": "20261106201607",
+      "attributes": {
+        "ANSWER_TEXT": "<p>\u00a1Ahora compartir con tus amigos y conocidos, te hace ganar!&nbsp;<\/p><figure class=\"media\"><div><div style=\"position:relative;padding-bottom:100%;height:0;padding-bottom:56.2493%\"><\/div><\/div><\/figure>",
+        "Content_array": "Nota: Antes de compartir tu enlace, aseg\u00farate de haber ingresado correctamente tu n\u00famero de celular (10 d\u00edgitos) con el que te registraste en Broxel."
+      },
+      "attributeArrays": {
+        "ANSWER_TEXT": [
+          "<p>\u00a1Ahora compartir con tus amigos y conocidos, te hace ganar!&nbsp;<\/p><figure class=\"media\"><div><div style=\"position:relative;padding-bottom:100%;height:0;padding-bottom:56.2493%\"><\/div><\/div><\/figure>"
+        ],
+        "Content_array": [
+          "6",
+          "\u00a1Comparte la experiencia de la tarjeta Broxel con tu familia, amigos y conocidos!",
+          "https:\/\/youtu.be\/_0-dk9NPRSg",
+          "https:\/\/market.broxel.com\/collections\/frontpage\/products\/tarjeta-broxel?={0}",
+          "Cuenta Broxel Dev",
+          "https:\/\/boom.broxel.com\/Register\/Modular\/Enrolamiento\/Pre\/00000000-0000-0000-0000-000000000000\/d3a8f065-de5d-45f5-937b-30e3edaeb5c5\/1c8877dd-bde1-4ab8-a1a7-79abb5b78f56\/es#index?origen=BROXEL&amp;CodigoReferenciacion={0}",
+          "Diles que soliciten la suya registr\u00e1ndose en el enlace que les compartas.",
+          "Compartir los beneficios es muy f\u00e1cil. Para empezar a usarla, tu invitado solo deber\u00e1:",
+          "Completar su registro usando el enlace que le compartas.",
+          "Comenzar a usar su tarjeta.",
+          "La tarjeta es muy vers\u00e1til y la pueden utilizar para:",
+          "Compras en comercios f\u00edsicos.",
+          "Compras en l\u00ednea.",
+          "Pago de servicios desde la App Broxel.",
+          "Nota: Antes de compartir tu enlace, aseg\u00farate de haber ingresado correctamente tu n\u00famero de celular (10 d\u00edgitos) con el que te registraste en Broxel."
+        ]
+      }
+    }
+  ],
+  "hasMore": false
+}

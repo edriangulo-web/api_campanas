@@ -1,0 +1,24 @@
+{
+  "results": [
+    {
+      "id": "23",
+      "parent": 0,
+      "depth": 1,
+      "name": "Invita y gana",
+      "numContents": 2,
+      "numContentsDescendants": 4,
+      "children": ["45"],
+      "slug": "invita-y-gana"
+    },
+    {
+      "id": "45",
+      "parent": "23",
+      "depth": 2,
+      "name": "Cuenta Betterware",
+      "numContents": 2,
+      "numContentsDescendants": 2,
+      "children": [],
+      "slug": "invita-y-gana\/cuenta-betterware"
+    }
+  ]
+}

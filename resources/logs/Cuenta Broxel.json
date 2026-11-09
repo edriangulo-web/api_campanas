@@ -1,0 +1,88 @@
+{
+  "id": "pub_brxL98KzTU21yPPoxH7QQ91YNoB8oucd",
+  "object": "publication",
+  "created_at": "2026-11-05T20:00:00.000Z",
+  "customer_id": "cust_BroxelUser2026NovQya",
+  "tracking_id": "525512345678",
+  "metadata": {
+    "test": true,
+    "provider": "BL Admin"
+  },
+  "channel": "API",
+  "source_id": "Invita y gana Cuenta Broxel525512345678",
+  "result": "SUCCESS",
+  "customer": {
+    "id": "cust_BroxelUser2026NovQya",
+    "source_id": "525512345678",
+    "phone": "525512345678",
+    "address": null,
+    "summary": null,
+    "loyalty": null,
+    "loyalty_memberships": null,
+    "referrals": null,
+    "object": "customer"
+  },
+  "voucher": {
+    "id": "v_brx05f28506ed904eHgNBR01",
+    "code": "NBR7kL9m2X",
+    "campaign": "Invita y gana Cuenta Broxel",
+    "campaign_id": "camp_BRXBroxelLink2026Q4",
+    "category": "BRXCUENTA",
+    "category_id": "cat_broxel_cuenta_2026",
+    "categories": [
+      {
+        "id": "cat_broxel_cuenta_2026",
+        "name": "BRXCUENTA",
+        "hierarchy": 1,
+        "created_at": "2026-11-05T00:00:00.000Z",
+        "object": "category"
+      }
+    ],
+    "type": "DISCOUNT_VOUCHER",
+    "discount": {
+      "type": "AMOUNT",
+      "amount_off": 10000,
+      "effect": "APPLY_TO_ORDER"
+    },
+    "gift": null,
+    "loyalty_card": null,
+    "start_date": null,
+    "expiration_date": null,
+    "validity_timeframe": null,
+    "validity_hours": null,
+    "validity_day_of_week": null,
+    "active": true,
+    "additional_info": null,
+    "metadata": {},
+    "assets": {
+      "qr": {
+        "id": "8c12b9c3-1e3f-4e7e-bd4a-312ab8b74640",
+        "url": "https://us1.dl.voucherify.io/api/v1/assets/qr/8c12b9c3-1e3f-4e7e-bd4a-312ab8b74640"
+      },
+      "barcode": {
+        "id": "e98de543-45a3-4edd-9b4c-1295036a52a8",
+        "url": "https://us1.dl.voucherify.io/api/v1/assets/barcode/e98de543-45a3-4edd-9b4c-1295036a52a8"
+      }
+    },
+    "is_referral_code": true,
+    "created_at": "2026-11-05T20:00:00.000Z",
+    "updated_at": null,
+    "holder_id": "cust_BroxelUser2026NovQya",
+    "referrer_id": "cust_BroxelUser2026NovQya",
+    "redemption": {
+      "quantity": null,
+      "redeemed_quantity": 0,
+      "object": "list",
+      "url": "/v1/vouchers/NBR7kL9m2X/redemptions?page=1&limit=10"
+    },
+    "publish": {
+      "object": "list",
+      "count": 1,
+      "url": "/v1/vouchers/NBR7kL9m2X/publications?page=1&limit=10"
+    },
+    "object": "voucher"
+  },
+  "vouchers_id": [
+    "v_brx05f28506ed904eHgNBR01"
+  ]
+}
