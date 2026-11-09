@@ -132,6 +132,18 @@
       "slug": "invita-y-gana\/cuenta-betterware",
       "culture": "es-MX",
       "isActive": true
+    },
+    {
+      "id": "46",
+      "parent": "43",
+      "depth": 2,
+      "name": "Betterware Account",
+      "numContents": 2,
+      "numContentsDescendants": 2,
+      "children": [],
+      "slug": "invita-y-gana\/cuenta-betterware",
+      "culture": "en-US",
+      "isActive": true
     }
   ]
 }

@@ -4,7 +4,7 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const menuOpciones = require('../models/MenuOpciones');
 
-const menuOpcionesPath = path.join(__dirname, '..', '..', 'resources', 'menu_principal.json');
+const menuOpcionesPath = path.join(__dirname, '..', '..', 'resources', 'Categorias.json');
 
 const listarMenu = async (filtro) => {
   return await menuOpciones.buscarMenuOpciones(filtro);

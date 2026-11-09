@@ -1,7 +1,7 @@
 {
   "results": [
     {
-      "id": 94,
+      "id": 100,
       "title": "Cuenta Broxel",
       "categories": ["23"],
       "tracking": {
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": 116,
+      "id": 101,
       "title": "Asociado o distribuidor Betterware",
       "categories": ["45"],
       "tracking": {
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": 119,
+      "id": 102,
       "title": "Familiares, amigos y conocidos",
       "categories": ["45"],
       "tracking": {
@@ -117,6 +117,122 @@
           "Pago de servicios, incluyendo los pagos Betterware, desde la secci\u00f3n de \u201cServicios y recargas\u201d en la App Broxel.",
           "Las recompensas se depositan dentro de los primeros 10 d\u00edas h\u00e1biles del mes siguiente.",
           "Antes de compartir tu liga, aseg\u00farate de haber ingresado correctamente tu n\u00famero de celular (10 d\u00edgitos) con el que te registraste en Broxel."
+        ]
+      }
+    },
+    {
+      "id": 103,
+      "title": "Cuenta Broxel",
+      "categories": ["43"],
+      "tracking": {
+        "clickCode": "eyJpdiI6ImV0WGIwSE4vMEx1NTBYUzc1RVdnb1E9PSIsInZhbHVlIjoiajNqaldPYnFaOFF4dDlDSlI0M1dsRmFISGYvTmhMSnI3UUwyOTE5N0dRSmFPVVB1cFYrK2pteVR2N3BmajdCQzFIWkYzbFBwK3pZQmVkdjRGa01ld01VZ0tPSlpjRlhFakFPcFhObkEvQ0RaSjNGMTJwUVFwcjJhaXB2MUswcUEiLCJtYWMiOiIxYWQ4ZjMyZTY5ZmE3NzBjNGNmMDUxNzBlZmNiMWRiZTgwMGFmNzA1ZWU2ZWQ1NTEyNzllNDA4ZWYzMmE0NTRiIiwidGFnIjoiIn0=",
+        "rateCode": "eyJpdiI6Ing1WFd4eUZvV2tkSXB1NXM3WSs1MlE9PSIsInZhbHVlIjoibmVwbW82YUl1Y1p6Qk5EOVpLUkM1M2l5Z3F2WjlNTXN4VjNFTFdsU1l4dFBRZ1FxOUlEdzUyRktoSGRvZjdlZ01YWUlHOVAyU1czMEVpdkR0Ykw4bTNFMVJqWmlzQnlxVk4yL3hCOExyUGsva0VMbkJQSC9SSW5UcmJtbG9LWngiLCJtYWMiOiI2YjRiZjA5NWI2ODkzOTBlOTY0ODNmM2RlYWNkYzE0NGQyYzQ4NjRkZWZhNWM4MjIwMjMyNGNjZDQyZjBjNjY0IiwidGFnIjoiIn0=",
+        "externalCode": "eyJpdiI6Inh4Z0M2bCtRN0FvaFpqbzN0NUgxUEE9PSIsInZhbHVlIjoiL25uckJicy9BZzl5aEJWRjBKeUJBV3ppVUZUTEtCS0wxN1ZQOGExVkJUVzdrQVVMakEzVk81NmltQjB4M0tWdkwvRmdQOHk2SUJwQzR1Z095T3FJUnByanVaM01TNkNaUWthSVhMckVyb25jOVZRL0wrSHhaVUNNMjYydjZpRldCSW1TR3hqdHNFcmVHYVhjOUVlQW9mRHBjcHFXOE5XQy9uYlVPNnpDK2lHMjVSV0FOMW4wY1p6VlhmajBnRW5aVG5zN2E3Z0NJRGE4TkZidEF4YnA5UT09IiwibWFjIjoiNzk0YWU2Y2U2MGE3YTQxMWNhYTQzZmRmMjc2YTZjOGJiNTBjN2RjYWI2YzhlODk0YTkyYTgxYjNjMTNjYWQ3ZSIsInRhZyI6IiJ9"
+      },
+      "hasRelated": false,
+      "hasDecisionTree": false,
+      "slug": "cuenta-broxel",
+      "hasCrossSelling": false,
+      "creationDate": "20220506173635",
+      "modificationDate": "20261106201607",
+      "attributes": {
+        "ANSWER_TEXT": "<p>\u00a1Ahora compartir con tus amigos y conocidos, te hace ganar!&nbsp;<\/p><figure class=\"media\"><div><div style=\"position:relative;padding-bottom:100%;height:0;padding-bottom:56.2493%\"><\/div><\/div><\/figure>",
+        "Content_array": "Nota: Antes de compartir tu enlace, aseg\u00farate de haber ingresado correctamente tu n\u00famero de celular (10 d\u00edgitos) con el que te registraste en Broxel."
+      },
+      "attributeArrays": {
+        "ANSWER_TEXT": [
+          "<p>\u00a1Ahora compartir con tus amigos y conocidos, te hace ganar!&nbsp;<\/p><figure class=\"media\"><div><div style=\"position:relative;padding-bottom:100%;height:0;padding-bottom:56.2493%\"><\/div><\/div><\/figure>"
+        ],
+        "Content_array": [
+          "6",
+          "\u00a1Comparte la experiencia de la tarjeta Broxel con tu familia, amigos y conocidos!",
+          "https:\/\/youtu.be\/_0-dk9NPRSg",
+          "https:\/\/market.broxel.com\/collections\/frontpage\/products\/tarjeta-broxel?={0}",
+          "Cuenta Broxel Dev",
+          "https:\/\/boom.broxel.com\/Register\/Modular\/Enrolamiento\/Pre\/00000000-0000-0000-0000-000000000000\/d3a8f065-de5d-45f5-937b-30e3edaeb5c5\/1c8877dd-bde1-4ab8-a1a7-79abb5b78f56\/es#index?origen=BROXEL&amp;CodigoReferenciacion={0}",
+          "Diles que soliciten la suya registr\u00e1ndose en el enlace que les compartas.",
+          "Compartir los beneficios es muy f\u00e1cil. Para empezar a usarla, tu invitado solo deber\u00e1:",
+          "Completar su registro usando el enlace que le compartas.",
+          "Comenzar a usar su tarjeta.",
+          "La tarjeta es muy vers\u00e1til y la pueden utilizar para:",
+          "Compras en comercios f\u00edsicos.",
+          "Compras en l\u00ednea.",
+          "Pago de servicios desde la App Broxel.",
+          "Nota: Antes de compartir tu enlace, aseg\u00farate de haber ingresado correctamente tu n\u00famero de celular (10 d\u00edgitos) con el que te registraste en Broxel."
+        ]
+      }
+    },
+    {
+      "id": 104,
+      "title": "Betterware Associate or Distributor",
+      "categories": ["46"],
+      "tracking": {
+        "clickCode": "eyJpdiI6IlBiMzk0TEhoQUp1anZLL08xMTRmQ1E9PSIsInZhbHVlIjoiTmtEMEFHS0RzS2NYSEFITHhzdGVYKzIrWUR2QktrSWlpelN6RWNvTjE2QjRYK3dEM1JnTHJRQlhmL005Z28xbzdjZU41ZDdvMXZtN2dDaGRzbEJJcGpZWTRVVnd0R2JkTkJPRkJzR29BVS91OWRYSWJ0SjNDZ0VoSjl2NEZkZ1UiLCJtYWMiOiJiYThkYzU2NTgxMzYwZDRlNDdkOTA1ZjQ2ZDBkZWFhZDYxNGRhMWE1ZjBkODNiODEwMjM1M2Q2NmRlNzc4ZGZmIiwidGFnIjoiIn0=",
+        "rateCode": "eyJpdiI6IjJFc1pCYkNpa2M4NlJlUlBLajI1OFE9PSIsInZhbHVlIjoiVGdwQmVucE9NMGgwRG1janJNTDBqa0FKWUdGdEg5bXdMbURqT21HSEU4NHk0SnY5N3Q3dXFTSU93RG1oS3pydDNoRlRKL01sTys2QUV2czgxMXZmb241WThpdldpcElPR1lQQ3hsbU81RXZwMWdOUTZjSjFMNE94cjNBQ0ZpMjAiLCJtYWMiOiJjMWQyMTVkMWYyOTM1YzQ5MWQxMzM4MTc2MzRjZDc5NWI1M2ViZWRjMTY3NGM3NDc4Y2I0ZGI2NDM1OWFiMzNjIiwidGFnIjoiIn0=",
+        "externalCode": "eyJpdiI6InZ2WXpGUnQyRFdGaGNyMXFKTktaR2c9PSIsInZhbHVlIjoiV2xNNktzZlZKRXhoSzRYRFNhYWRSRTM2RHdWYW9MVnY0YUdrazlpaDJ1MkEzOWZoWlQzWGkyUXVYR0NlZTgxMjR5OElpaFZLd2ZWVnUvRE9Ub2U2L3A2cjBCR0srWTVDSGpNciswZzZadlhxdEdyTWt5N1FodUhFczJRQmZ2VjdoSmhOODZDWHIwN3pyeVJoOGVJZDdtKzlBdEc1UlRNbzBnanFUN0dQcktNYXd5ajVoSktCSkxSZ3kybE8zWnV2OTRwa1B5SHlNL0dGV0JlN1BOZmxoc0FzNktFMzN0dlBocUlucTJ5WnNZeEtHMVR6Zkc2alFyTTNMZko4ejBCOSIsIm1hYyI6ImMzMzNkZTFiMDA1YTgzZWNmZTY2ZDM5NjUyNGFjZWRlYjA3NDc2N2Q2OGFhZjE4ZjRmODQwZTFhNmM4Y2MyNTYiLCJ0YWciOiIifQ=="
+      },
+      "hasRelated": false,
+      "hasDecisionTree": false,
+      "slug": "betterware-associate-or-distributor",
+      "hasCrossSelling": false,
+      "creationDate": "20250821195350",
+      "modificationDate": "20251127195536",
+      "attributes": {
+        "ANSWER_TEXT": "<p>Invite your friends and earn rewards!</p>",
+        "Content_array": "Before sharing your link, make sure you entered the 10-digit mobile number you used to register with Broxel correctly."
+      },
+      "attributeArrays": {
+        "ANSWER_TEXT": ["<p>Invite your friends and earn rewards!</p>"],
+        "Content_array": [
+          "7",
+          "Invite anyone you like and earn rewards! Earn MXN $350 for each person you invite to get their Betterware card. Your referral will receive MXN $100 as a welcome bonus. For both of you to receive the reward, your invitee must:",
+          "https://broxel.com/betterware",
+          "Refer and Earn Betterware",
+          "https://boom.broxel.com/Register/Modular/Enrolamiento/Pre/00000000-0000-0000-0000-000000000000/d3a8f065-de5d-45f5-937b-30e3edaeb5c5/1c8877dd-bde1-4ab8-a1a7-79abb5b78f56/es#index?origen=BEFRA&amp;CodigoReferenciacion={0}",
+          "Complete their registration using the link you share.",
+          "Spend at least MXN $500 with their card (in one purchase or across multiple purchases) during the first 30 days after successful registration. Purchases can include:",
+          "In-store purchases.",
+          "Online purchases (including the Betterware e-commerce store).",
+          "Bill payments, including Betterware payments, through the ?Bills and top-ups? section in the Broxel app.",
+          "Rewards are deposited within the first 10 business days of the following month.",
+          "Before sharing your link, make sure you entered the 10-digit mobile number you used to register with Broxel correctly."
+        ]
+      }
+    },
+    {
+      "id": 105,
+      "title": "Family, Friends, and Acquaintances",
+      "categories": ["46"],
+      "tracking": {
+        "clickCode": "eyJpdiI6IlBBTDFyU21hTnV1YkVNazhIaDA1RGc9PSIsInZhbHVlIjoiSFpPVzhDV3hvNkZueGgrSktpVWpndWI5cmd5TVQ1TnJvdWppTmRWR0R5Zzl6SDR0cmlMQnN3Ympxb3B4OXpOdDlrNlhpMWoxbkUvV3R2OGVZWEhnYXNwaTRIT1lCUXZoa04xYjdqZzFtWVJrTFp0RVlIc2x1UVRrbzVoaHdJY0kiLCJtYWMiOiJmNWY1Y2Y5MzgzZWZhMjcyMWE4MTVhYjMzYTQ3NTQwNzhkZGUyODFlYTJjZjI5OTc4OTA5YWUyM2I1YjY1YzQ2IiwidGFnIjoiIn0=",
+        "rateCode": "eyJpdiI6IkhYTGVrSUhteXM5TE1hSm9RWG1mT2c9PSIsInZhbHVlIjoiaWhvbU93UWZGM29yb2ZYUmxPTzdDWnR2RUd3aWM5VEl6YkJob0Jxd0pyc2NNMDUzRUc4K1B4RDdVTHd4QzlWd2RUSmhvS21OenZtcVI2cVZWQzA3a3ZxbDhwKzN1L2dsOE9JYXlzN2RELzBUS1UxWHM4QjB3NGNTQUNsM3JwaDkiLCJtYWMiOiJhMTdjMmI4ZDJiZGNjMjNlNTA1OTA1MDZhNmE5ZDVhMDY5OGM0M2U5Yjk4MWI3MDc0MTJiMTlmOWY1ODJjZDRmIiwidGFnIjoiIn0=",
+        "externalCode": "eyJpdiI6InRqdXRPQUlqRTF1S0wvQWl4UWUvU3c9PSIsInZhbHVlIjoiUFdzTXpoWjlvZHc0UGE5TmdjdEowdS95Tm5RUGVMNUdIOXczWG9RSHlGSzlIMm16WDB2VlFnNUZEWFdURHo1cGJaa1VxRys0ZFl1bklTZ2VCNjNHMnBIdm1pOFQxUllnUTh2cURXRzcwTFNmRUF2QjgwYXcyMUpqNlVLZUZNbGdqOFZuNVZTRmhNVFN3MVZDc29KbW9Ja1drZjVzVjJYaHgzVjhyR09VRG40bXRtUjZDazIyUTVWUXlqQU4zaUhJVUF5RWNvbXdaREZ0RVZoK2JWeENxZjErdzBwU3g2RE1KZEw1OEtaZDF6az0iLCJtYWMiOiIwMDQwYzZlOThiMDEyYTEwNTU1MDAyNTBlYTcyZTQ5MTI3MjY1OGVkYmIxYTc4ZGNmYzlmZjNkYzY1MTkyZjA1IiwidGFnIjoiIn0="
+      },
+      "hasRelated": false,
+      "hasDecisionTree": false,
+      "slug": "family-friends-and-acquaintances",
+      "hasCrossSelling": false,
+      "creationDate": "20250926030725",
+      "modificationDate": "20251127232742",
+      "attributes": {
+        "ANSWER_TEXT": "<p>Invite your friends and earn rewards!</p>",
+        "Content_array": "Before sharing your link, make sure you entered the 10-digit mobile number you used to register with Broxel correctly."
+      },
+      "attributeArrays": {
+        "ANSWER_TEXT": ["<p>Invite your friends and earn rewards!</p>"],
+        "Content_array": [
+          "7",
+          "Invite anyone you like and earn rewards! Earn MXN $350 for each person you invite to get their Betterware card. Your referral will receive MXN $100 as a welcome bonus. For both of you to receive the reward, your invitee must:",
+          "https://broxel.com/betterware",
+          "Refer and Earn Betterware: Family, Friends, and Acquaintances",
+          "https://boom.broxel.com/Register/Modular/Enrolamiento/Pre/00000000-0000-0000-0000-000000000000/d3a8f065-de5d-45f5-937b-30e3edaeb5c5/1c8877dd-bde1-4ab8-a1a7-79abb5b78f56/es#index?origen=BEFRA&amp;CodigoReferenciacion={0}",
+          "Complete their registration using the link you share.",
+          "Spend at least MXN $500 with their card (in one purchase or across multiple purchases) during the first 30 days after successful registration. Purchases can include:",
+          "In-store purchases.",
+          "Online purchases (including the Betterware e-commerce store).",
+          "Bill payments, including Betterware payments, through the ?Bills and top-ups? section in the Broxel app.",
+          "Rewards are deposited within the first 10 business days of the following month.",
+          "Before sharing your link, make sure you entered the 10-digit mobile number you used to register with Broxel correctly."
         ]
       }
     }

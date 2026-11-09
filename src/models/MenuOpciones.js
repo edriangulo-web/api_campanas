@@ -13,6 +13,7 @@ function mapMenuOpciones(opciones) {
   }
 
   const ids = new Set();
+  const categoriasPorId = new Map();
   const childOrder = new Map();
 
   for (const [index, opcion] of opciones.entries()) {
@@ -24,10 +25,25 @@ function mapMenuOpciones(opciones) {
     }
 
     const id = String(opcion.id);
-    if (ids.has(id)) {
-      throw new TypeError(`El id "${id}" está duplicado`);
+    if (opcion.culture !== undefined &&
+      (typeof opcion.culture !== 'string' || opcion.culture.trim().length === 0)) {
+      throw new TypeError(`La opción "${id}" tiene una culture inválida`);
     }
-    ids.add(id);
+    if (opcion.isActive !== undefined && typeof opcion.isActive !== 'boolean') {
+      throw new TypeError(`La opción "${id}" tiene un isActive inválido`);
+    }
+
+    const culture = opcion.culture ?? null;
+    const categoryKey = `${id}\0${culture ?? ''}`;
+    if (ids.has(categoryKey)) {
+      throw new TypeError(`El id "${id}" está duplicado para la misma culture`);
+    }
+    ids.add(categoryKey);
+
+    if (!categoriasPorId.has(id)) {
+      categoriasPorId.set(id, []);
+    }
+    categoriasPorId.get(id).push(opcion);
 
     if (!Array.isArray(opcion.children)) {
       throw new TypeError(`La propiedad children de "${id}" debe ser un arreglo`);
@@ -40,6 +56,37 @@ function mapMenuOpciones(opciones) {
       }
     });
   }
+
+  const storageIds = new Map();
+  const usedStorageIds = new Set();
+
+  for (const [id, categorias] of categoriasPorId) {
+    const canonical = categorias.find(categoria => categoria.culture === 'es-MX') ?? categorias[0];
+    for (const categoria of categorias) {
+      if (categorias.length > 1 && categoria.culture === undefined) {
+        throw new TypeError(`El id "${id}" está duplicado y requiere una culture para distinguirse`);
+      }
+
+      const storageId = categoria === canonical
+        ? id
+        : `${id}:${categoria.culture}`;
+      if (usedStorageIds.has(storageId)) {
+        throw new TypeError(`El id interno "${storageId}" está duplicado`);
+      }
+      usedStorageIds.add(storageId);
+      storageIds.set(categoria, storageId);
+    }
+  }
+
+  const resolveParentId = (id, culture) => {
+    const categorias = categoriasPorId.get(id);
+    if (!categorias) {
+      return id;
+    }
+
+    const parent = categorias.find(categoria => categoria.culture === culture) ?? categorias[0];
+    return storageIds.get(parent);
+  };
 
   return opciones.map((opcion, index) => {
     const id = String(opcion.id);
@@ -58,10 +105,10 @@ function mapMenuOpciones(opciones) {
     }
 
     const documento = {
-      _id: id,
+      _id: storageIds.get(opcion),
       parent: opcion.parent === '-' || opcion.parent === undefined || opcion.parent === null
         ? null
-        : String(opcion.parent),
+        : resolveParentId(String(opcion.parent), opcion.culture),
       depth: opcion.depth,
       name: opcion.name,
       numContents: opcion.numContents,
@@ -69,6 +116,13 @@ function mapMenuOpciones(opciones) {
       slug: opcion.slug,
       order: childOrder.get(id) ?? index
     };
+
+    if (opcion.culture !== undefined) {
+      documento.culture = opcion.culture;
+    }
+    if (opcion.isActive !== undefined) {
+      documento.isActive = opcion.isActive;
+    }
 
     if (opcion.campaign !== undefined) {
       documento.campaign = opcion.campaign;

@@ -20,6 +20,15 @@ const obtenerMenuPorProfundidad = async (req, res, next) => {
   }
 };
 
+const obtenerMenuPorCultura = async (req, res, next) => {
+  try {
+    const culture = req.params.culture;
+    const opciones = await menuService.listarMenu({ culture });
+    res.json(opciones);
+  } catch (error) {
+    next(error);
+  }
+};
 const obtenerOpcionPorId = async (req, res, next) => {
   try {
     const opcion = await menuService.buscarPorId(req.params.id);
@@ -62,6 +71,7 @@ const inicializarBaseDatos = async (req, res, next) => {
 module.exports = {
   obtenerMenu,
   obtenerMenuPorProfundidad,
+  obtenerMenuPorCultura,
   obtenerOpcionPorId,
   crearOpcion,
   inicializarBaseDatos

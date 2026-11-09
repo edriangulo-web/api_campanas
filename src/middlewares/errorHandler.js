@@ -1,6 +1,13 @@
 // # Middleware centralizado de errores (500, URIError, etc.)
 
 const errorHandler = (error, req, res, next) => {
+  if (error.code === "CORS_ORIGIN_DENIED") {
+    return res.status(403).json({
+      error: "Origen no permitido",
+      mensaje: "Este origen no está autorizado para acceder a la API.",
+    });
+  }
+
   if (error.type === "entity.too.large") {
     return res
       .status(413)

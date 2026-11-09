@@ -16,6 +16,7 @@ const router = Router();
 // Menu Routes
 router.get("/", menuController.obtenerMenu);
 router.get("/depth=:depth", validate(depthParamSchema, 'params') , menuController.obtenerMenuPorProfundidad);
+router.get("/culture=:culture", menuController.obtenerMenuPorCultura);
 router.get("/:id", validate(idParamSchema, 'params'), menuController.obtenerOpcionPorId);
 router.post("/", validate(menuBodySchema, 'body'), menuController.crearOpcion);
 router.post(

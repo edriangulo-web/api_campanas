@@ -1,11 +1,12 @@
-{"_id":"0","parent":null,"depth":0,"name":"root","numContents":0,"numContentsDescendants":63,"slug":"","order":0}
-{"_id":"1","parent":"0","depth":1,"name":"Tutoriales","numContents":0,"numContentsDescendants":42,"slug":"tutoriales","order":1}
-{"_id":"2","parent":"0","depth":1,"name":"Adquirir un producto","numContents":0,"numContentsDescendants":7,"slug":"adquirir-un-producto","order":3}
-{"_id":"23","parent":"0","depth":1,"name":"Invita y gana","numContents":0,"numContentsDescendants":3,"slug":"invita-y-gana","order":4}
-{"_id":"3","parent":"0","depth":1,"name":"Información de productos","numContents":2,"numContentsDescendants":10,"slug":"informacion-de-productos","order":2}
-{"_id":"34","parent":"0","depth":1,"name":"¿Quiénes somos?","numContents":1,"numContentsDescendants":1,"slug":"quienes-somos","order":0}
-{"_id":"40","parent":"0","depth":1,"name":"About Us","numContents":0,"numContentsDescendants":0,"slug":"about-us","order":5}
-{"_id":"41","parent":"0","depth":1,"name":"Tutorials","numContents":0,"numContentsDescendants":0,"slug":"tutorials","order":6}
-{"_id":"43","parent":"0","depth":1,"name":"Refer & Win","numContents":0,"numContentsDescendants":0,"slug":"refer-win","order":7}
-{"_id":"45","parent":"23","depth":2,"name":"Cuenta Betterware","numContents":2,"numContentsDescendants":2,"slug":"invita-y-gana/cuenta-betterware","order":0,"actionType":"show-referral-options"}
-{"_id":"9999","parent":"23","depth":2,"name":"Cuenta Broxel","numContents":0,"numContentsDescendants":1,"slug":"invita-y-gana/cuenta-broxel","order":1,"campaign":"Broxel","actionType":"show-get-code"}
+{"_id":"0","parent":null,"depth":0,"name":"root","numContents":0,"numContentsDescendants":65,"slug":"","order":0,"culture":"es-MX","isActive":true}
+{"_id":"0:en-US","parent":null,"depth":0,"name":"root","numContents":0,"numContentsDescendants":65,"slug":"","order":1,"culture":"en-US","isActive":true}
+{"_id":"1","parent":"0","depth":1,"name":"Tutoriales","numContents":0,"numContentsDescendants":42,"slug":"tutoriales","order":1,"culture":"es-MX","isActive":false}
+{"_id":"2","parent":"0","depth":1,"name":"Adquirir un producto","numContents":0,"numContentsDescendants":7,"slug":"adquirir-un-producto","order":3,"culture":"es-MX","isActive":false}
+{"_id":"23","parent":"0","depth":1,"name":"Invita y gana","numContents":2,"numContentsDescendants":4,"slug":"invita-y-gana","order":4,"culture":"es-MX","isActive":true}
+{"_id":"3","parent":"0","depth":1,"name":"Información de productos","numContents":2,"numContentsDescendants":10,"slug":"informacion-de-productos","order":2,"culture":"es-MX","isActive":false}
+{"_id":"34","parent":"0","depth":1,"name":"¿Quiénes somos?","numContents":1,"numContentsDescendants":1,"slug":"quienes-somos","order":0,"culture":"es-MX","isActive":false}
+{"_id":"40","parent":"0:en-US","depth":1,"name":"About Us","numContents":0,"numContentsDescendants":0,"slug":"about-us","order":5,"culture":"en-US","isActive":false}
+{"_id":"41","parent":"0:en-US","depth":1,"name":"Tutorials","numContents":0,"numContentsDescendants":0,"slug":"tutorials","order":6,"culture":"en-US","isActive":false}
+{"_id":"43","parent":"0:en-US","depth":1,"name":"Refer & Win","numContents":1,"numContentsDescendants":1,"slug":"refer-win","order":7,"culture":"en-US","isActive":true}
+{"_id":"45","parent":"23","depth":2,"name":"Cuenta Betterware","numContents":2,"numContentsDescendants":2,"slug":"invita-y-gana/cuenta-betterware","order":10,"culture":"es-MX","isActive":true}
+{"_id":"46","parent":"43","depth":2,"name":"Betterware Account","numContents":2,"numContentsDescendants":2,"slug":"invita-y-gana/cuenta-betterware","order":11,"culture":"en-US","isActive":true}
