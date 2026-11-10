@@ -2,13 +2,8 @@ const fs = require("node:fs/promises");
 const path = require("node:path");
 const campanaModel = require("../models/Campana");
 
-const campanaDataPath = path.join(
-  __dirname,
-  "..",
-  "..",
-  "resources",
-  "CategoriasDetalle.json",
-);
+const relativePath  = process.env.CATEGORIAS_DETALLE_PATH || 'resources/CategoriasDetalle.json';
+const campanaDataPath = path.resolve(process.cwd(), relativePath);
 
 const listarCampanas = async(filtro) => {
     return await campanaModel.buscarCampanas(filtro);

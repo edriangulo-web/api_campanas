@@ -8,6 +8,7 @@ const errorHandler = require("./middlewares/errorHandler");
 const menuRoutes = require("./routes/menuRoutes");
 const campanaRoutes = require("./routes/campanaRoutes");
 const authRoutes = require("./routes/authRoutes");
+const noSqlSanitizer = require("./middlewares/noSqlInjection");
 
 const app = express();
 
@@ -53,6 +54,8 @@ app.use(
     limit: "100kb",
   }),
 );
+
+app.use(noSqlSanitizer);
 
 // 3. Montaje de rutas de la feature
 console.log(menuRoutes);

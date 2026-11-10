@@ -4,7 +4,8 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const menuOpciones = require('../models/MenuOpciones');
 
-const menuOpcionesPath = path.join(__dirname, '..', '..', 'resources', 'Categorias.json');
+const relativePath  = process.env.CATEGORIAS_PATH || 'resources/Categorias.json';
+const menuOpcionesDataPath = path.resolve(process.cwd(), relativePath);
 
 const listarMenu = async (filtro) => {
   return await menuOpciones.buscarMenuOpciones(filtro);
@@ -19,7 +20,7 @@ const guardarOpciones = async (body) => {
 };
 
 const inicializarDesdeArchivo = async () => {
-  const contenido = await fs.readFile(menuOpcionesPath, 'utf8');
+  const contenido = await fs.readFile(menuOpcionesDataPath, 'utf8');
   const json = JSON.parse(contenido);
   return await menuOpciones.reemplazarMenuOpciones(json);
 };
