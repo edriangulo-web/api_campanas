@@ -2,17 +2,21 @@
 
 const express = require("express");
 const cors = require("cors");
-const allowedOrigins = require("./config/allowedOrigins.json");
 const { globalRateLimiter } = require("./middlewares/rateLimiter");
 const securityMiddleware = require("./middlewares/security");
 const errorHandler = require("./middlewares/errorHandler");
 const menuRoutes = require("./routes/menuRoutes");
 const campanaRoutes = require("./routes/campanaRoutes");
+const authRoutes = require("./routes/authRoutes");
 
 const app = express();
 
 // 1. Cabeceras HTTP de seguridad (Helmet) ANTES de cualquier ruta
 app.use(securityMiddleware);
+
+const allowedOrigins = process.env.ALLOWED_ORIGINS ?
+  process.env.ALLOWED_ORIGINS.split(",").map((item) => item.trim())
+  : ["http://localhost:3000", "http://localhost:5173"];
 
 const corsOptions = {
   origin: (origin, callback) => {
@@ -54,6 +58,7 @@ app.use(
 console.log(menuRoutes);
 app.use("/api/menu-opciones", menuRoutes);
 app.use("/api/campanas", campanaRoutes);
+app.use("/api/auth", authRoutes);
 
 // 4. Manejador para rutas inexistentes (404)
 app.use((req, res) => {

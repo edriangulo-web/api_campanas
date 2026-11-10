@@ -1,5 +1,6 @@
 const { Router } = require("express");
 const campanaController = require("../controllers/campanaController");
+const { strictRateLimiter } = require("../middlewares/rateLimiter");
 const authenticationToken = require("../middlewares/auth");
 const authorize = require("../middlewares/authorize");
 const router = Router();
@@ -15,7 +16,7 @@ router.get("/:id", campanaController.obtenerDetalleCampana);
 router.post(
   "/inicializar_bd", 
   authorize('ADMIN'), 
-  //strictLimiter, // TODO: Implementar el strictLimiter
+  strictRateLimiter,
   campanaController.inicializarBaseDatos
 );
 
