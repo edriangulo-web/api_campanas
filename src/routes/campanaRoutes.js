@@ -1,12 +1,22 @@
 const { Router } = require("express");
 const campanaController = require("../controllers/campanaController");
+const authenticationToken = require("../middlewares/auth");
+const authorize = require("../middlewares/authorize");
 const router = Router();
 
+// Exige token JWT a todas las rutas de este router
+router.use(authenticationToken);
 
-// Campañas Routes
-router.get("/listar_campanas", campanaController.obtenerCampañas);
-router.post("/inicializar_bd", campanaController.inicializarBaseDatos);
-router.get("/detalle_campana/:id", campanaController.obtenerDetalleCampana);
+// Consultas operativas
+router.get("/", campanaController.obtenerCampañas);
+router.get("/:id", campanaController.obtenerDetalleCampana);
 
+// Operación restringida solo a ADMIN con rate limit estricto
+router.post(
+  "/inicializar_bd", 
+  authorize('ADMIN'), 
+  //strictLimiter, // TODO: Implementar el strictLimiter
+  campanaController.inicializarBaseDatos
+);
 
 module.exports = router;
