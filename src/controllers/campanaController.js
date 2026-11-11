@@ -2,8 +2,13 @@ const campanaService = require('../services/campanaService');
 
 const obtenerCampañas = async (req, res, next) => {
     try {
-        const campanas = await campanaService.listarCampanas();
-        res.status(200).json(campanas);
+        const filtros = {};
+        const { categories } = req.query;
+
+        if(categories !== undefined) filtros.categories = String(categories).trim();
+
+        const campanas = await campanaService.listarCampanas(filtros);
+        res.status(200).json({ results: campanas });
     }catch (error) {
         next(error);
     }
@@ -16,7 +21,7 @@ const inicializarBaseDatos = async (req, res, next) => {
 
         res.status(200).json({
             guardadas: campanas.length,
-            campanas
+            results : campanas
         });        
     }catch (error) {
         next(error);

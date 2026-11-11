@@ -5,8 +5,8 @@ const authenticationToken = require("../middlewares/auth");
 const authorize = require("../middlewares/authorize");
 const router = Router();
 
-// Exige token JWT a todas las rutas de este router
-router.use(authenticationToken);
+// // Exige token JWT a todas las rutas de este router
+// router.use(authenticationToken);
 
 // Consultas operativas
 router.get("/", campanaController.obtenerCampañas);
