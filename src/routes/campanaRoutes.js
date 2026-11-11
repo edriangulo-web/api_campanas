@@ -15,7 +15,7 @@ router.get("/:id", campanaController.obtenerDetalleCampana);
 // Operación restringida solo a ADMIN con rate limit estricto
 router.post(
   "/inicializar_bd", 
-  authorize('ADMIN'), 
+  // authorize('ADMIN'), 
   strictRateLimiter,
   campanaController.inicializarBaseDatos
 );

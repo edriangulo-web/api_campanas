@@ -131,6 +131,10 @@ function mapMenuOpciones(opciones) {
       documento.actionType = opcion.actionType;
     }
 
+    if (opcion.icon !== undefined) {
+      documento.icon = opcion.icon;
+    }
+
     return documento;
   });
 }
