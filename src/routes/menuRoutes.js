@@ -1,29 +1,29 @@
-// # Definición de endpoints y métodos (GET, POST)
-
+// src/routes/menuRoutes.js
 const { Router } = require("express");
 const menuController = require("../controllers/menuController");
 const { strictRateLimiter } = require("../middlewares/rateLimiter");
 const validate = require("../middlewares/validate");
 const {
   idParamSchema,
-  depthParamSchema,
   menuBodySchema,
 } = require("../schemas/menuSchema");
 
 const router = Router();
 
-
-// Menu Routes
+// 1. Obtener menú con o sin filtros (?idCategory=...&culture=...&depth=...)
 router.get("/", menuController.obtenerMenu);
-router.get("/depth=:depth", validate(depthParamSchema, 'params') , menuController.obtenerMenuPorProfundidad);
-router.get("/culture=:culture", menuController.obtenerMenuPorCultura);
+
+// 2. Obtener un elemento específico por su ID único de ruta (/api/menu-opciones/34)
 router.get("/:id", validate(idParamSchema, 'params'), menuController.obtenerOpcionPorId);
+
+// 3. Crear nueva opción de menú
 router.post("/", validate(menuBodySchema, 'body'), menuController.crearOpcion);
+
+// 4. Inicializar base de datos desde el JSON físico
 router.post(
   "/inicicializar_bd",
   strictRateLimiter,
-  menuController.inicializarBaseDatos,
+  menuController.inicializarBaseDatos
 );
-
 
 module.exports = router;
