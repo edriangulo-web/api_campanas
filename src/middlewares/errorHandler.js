@@ -2,7 +2,12 @@
 const isProduction = process.env.NODE_ENV;
 
 const errorHandler = (error, req, res, next) => {
-  console.error(`[Error]: ${req.method} ${req.originalURL}: err`);
+  console.error(`[Error]: ${req.method} ${req.originalUrl}:`, error);
+
+  // Si ya se enviaron las cabeceras al cliente, delega a Express y detiene la ejecución
+  if (res.headersSent) {
+    return next(error);
+  }
 
   if (error.code === "CORS_ORIGIN_DENIED") {
     return res.status(403).json({

@@ -1,41 +1,43 @@
+// src/schemas/menuSchema.js
 const { z } = require("zod");
 
-// Esquema para validar el parametro de ruta: id
 const idParamSchema = z.object({
-  id: z.string().trim().min(1, "El identidicaddor no puede estar vacio"),
+  id: z.string().trim().min(1, "El identificador no puede estar vacío"),
 });
 
-// Esquema para validar la profundidad (/depth=:depth)
 const depthParamSchema = z.object({
   depth: z.coerce
     .number()
     .int()
-    .nonnegative("La profundidad debe ser un número entero no negativo"),
+    .nonnegative("La profundidad debe ser un entero mayor o igual a 0"),
 });
 
-// Esquema unitario de una opción de menú
 const opcionMenuSchema = z.object({
-  id: z.number().int().optional(),
-  name: z.string().trim().min(1, " El nombre es obligatorio"),
+  // ✅ Acepta tanto número (0, 34) como string ("0", "34", "0:en-US")
+  id: z.union([z.number().int(), z.string().trim().min(1)]).optional(),
+  name: z.string().trim().min(1, "El nombre es obligatorio"),
   parent: z.string().nullable().optional(),
   depth: z.number().int().nonnegative().optional(),
+  children: z.array(z.string()).optional().default([]),
   numContents: z.number().int().default(0),
   numContentsDescendants: z.number().int().default(0),
   slug: z.string().trim().optional(),
+  culture: z.string().trim().optional(),
+  isActive: z.boolean().nullable().optional().default(true),
+  actionType: z.string().nullable().optional(),
+  campaign: z.string().nullable().optional(),
+  contentId: z.number().int().nullable().optional(),
+  icon: z.string().nullable().optional(),
   order: z.number().int().default(0),
 });
 
-// Esquema para el cuerpo de POST /api/menu-opciones (acepta un objeto o un arreglo de opciones)
 const menuBodySchema = z.union([
   opcionMenuSchema,
-  z
-    .array(opcionMenuSchema)
-    .min(1, "El arreglo de opciones no puede estar vacío"),
+  z.array(opcionMenuSchema).min(1, "Debe enviar al menos una opción en el arreglo"),
 ]);
 
 module.exports = {
   idParamSchema,
   depthParamSchema,
-  opcionMenuSchema,
   menuBodySchema,
 };

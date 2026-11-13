@@ -8,7 +8,9 @@ const db = new Datastore({
 });
 
 function mapMenuOpciones(opciones) {
-  if (!Array.isArray(opciones)) {
+  const listaOpciones = Array.isArray(opciones) ? opciones : [opciones];
+
+  if (!Array.isArray(listaOpciones)) {
     throw new TypeError('El JSON debe ser un arreglo de opciones de menú');
   }
 
@@ -16,7 +18,7 @@ function mapMenuOpciones(opciones) {
   const categoriasPorId = new Map();
   const childOrder = new Map();
 
-  for (const [index, opcion] of opciones.entries()) {
+  for (const [index, opcion] of listaOpciones.entries()) {
     if (!opcion || typeof opcion !== 'object' || Array.isArray(opcion)) {
       throw new TypeError(`La opción en la posición ${index} no es un objeto válido`);
     }
@@ -45,11 +47,12 @@ function mapMenuOpciones(opciones) {
     }
     categoriasPorId.get(id).push(opcion);
 
-    if (!Array.isArray(opcion.children)) {
-      throw new TypeError(`La propiedad children de "${id}" debe ser un arreglo`);
-    }
+    // if (!Array.isArray(opcion.children)) {
+    //   throw new TypeError(`La propiedad children de "${id}" debe ser un arreglo`);
+    // }
+    const children = Array.isArray(opcion.children) ? opcion.children : [];
 
-    opcion.children.forEach((childId, order) => {
+    children.forEach((childId, order) => {
       const normalizedChildId = String(childId);
       if (!childOrder.has(normalizedChildId)) {
         childOrder.set(normalizedChildId, order);
@@ -88,33 +91,46 @@ function mapMenuOpciones(opciones) {
     return storageIds.get(parent);
   };
 
-  return opciones.map((opcion, index) => {
+return listaOpciones.map((opcion, index) => {
     const id = String(opcion.id);
-    if (typeof opcion.name !== 'string' || typeof opcion.slug !== 'string') {
-      throw new TypeError(`La opción "${id}" debe tener name y slug de tipo texto`);
+    const slug = opcion.slug ?? "";
+    const depth = Number.isInteger(opcion.depth) ? opcion.depth : 0;
+    const numContents = Number.isFinite(opcion.numContents) ? opcion.numContents : 0;
+    const numContentsDescendants = Number.isFinite(opcion.numContentsDescendants)
+      ? opcion.numContentsDescendants
+      : 0;
+
+    if (typeof opcion.name !== "string" || opcion.name.trim().length === 0) {
+      throw new TypeError(`La opción "${id}" debe tener un name de tipo texto`);
     }
-    if (!Number.isInteger(opcion.depth) || opcion.depth < 0) {
+    if (typeof slug !== "string") {
+      throw new TypeError(`La opción "${id}" debe tener un slug de tipo texto`);
+    }
+    if (depth < 0) {
       throw new TypeError(`La opción "${id}" debe tener un depth entero no negativo`);
     }
-    if (!Number.isFinite(opcion.numContents) || !Number.isFinite(opcion.numContentsDescendants)) {
-      throw new TypeError(`La opción "${id}" debe tener contadores numéricos`);
-    }
-    if (opcion.parent !== '-' && opcion.parent !== null && opcion.parent !== undefined &&
-      typeof opcion.parent !== 'string' && typeof opcion.parent !== 'number') {
+    if (
+      opcion.parent !== "-" &&
+      opcion.parent !== null &&
+      opcion.parent !== undefined &&
+      typeof opcion.parent !== "string" &&
+      typeof opcion.parent !== "number"
+    ) {
       throw new TypeError(`La opción "${id}" tiene un parent inválido`);
     }
 
     const documento = {
       _id: storageIds.get(opcion),
-      parent: opcion.parent === '-' || opcion.parent === undefined || opcion.parent === null
-        ? null
-        : resolveParentId(String(opcion.parent), opcion.culture),
-      depth: opcion.depth,
-      name: opcion.name,
-      numContents: opcion.numContents,
-      numContentsDescendants: opcion.numContentsDescendants,
-      slug: opcion.slug,
-      order: childOrder.get(id) ?? index
+      parent:
+        opcion.parent === "-" || opcion.parent === undefined || opcion.parent === null
+          ? null
+          : resolveParentId(String(opcion.parent), opcion.culture),
+      depth,
+      name: opcion.name.trim(),
+      numContents,
+      numContentsDescendants,
+      slug: slug.trim(),
+      order: childOrder.get(id) ?? index,
     };
 
     if (opcion.culture !== undefined) {
@@ -123,14 +139,12 @@ function mapMenuOpciones(opciones) {
     if (opcion.isActive !== undefined) {
       documento.isActive = opcion.isActive;
     }
-
     if (opcion.campaign !== undefined) {
       documento.campaign = opcion.campaign;
     }
     if (opcion.actionType !== undefined) {
       documento.actionType = opcion.actionType;
     }
-
     if (opcion.icon !== undefined) {
       documento.icon = opcion.icon;
     }
