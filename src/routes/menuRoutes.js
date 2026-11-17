@@ -6,6 +6,7 @@ const validate = require("../middlewares/validate");
 const {
   idParamSchema,
   menuBodySchema,
+  crearOpcionMenuSchema,
 } = require("../schemas/menuSchema");
 
 const router = Router();
@@ -17,7 +18,7 @@ router.get("/", menuController.obtenerMenu);
 router.get("/:id", validate(idParamSchema, 'params'), menuController.obtenerOpcionPorId);
 
 // 3. Crear nueva opción de menú
-router.post("/", validate(menuBodySchema, 'body'), menuController.crearOpcion);
+router.post("/", validate(crearOpcionMenuSchema, 'body'), menuController.crearOpcion);
 
 // 4. Inicializar base de datos desde el JSON físico
 router.post(

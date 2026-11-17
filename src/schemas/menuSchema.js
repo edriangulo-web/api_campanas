@@ -14,7 +14,7 @@ const depthParamSchema = z.object({
 
 const opcionMenuSchema = z.object({
   // ✅ Acepta tanto número (0, 34) como string ("0", "34", "0:en-US")
-  id: z.union([z.number().int(), z.string().trim().min(1)]).optional(),
+  id: z.union([z.number().int(), z.string().trim().min(1)]).nullable().optional(),
   name: z.string().trim().min(1, "El nombre es obligatorio"),
   parent: z.string().nullable().optional(),
   depth: z.number().int().nonnegative().optional(),
@@ -36,8 +36,24 @@ const menuBodySchema = z.union([
   z.array(opcionMenuSchema).min(1, "Debe enviar al menos una opción en el arreglo"),
 ]);
 
+const crearOpcionMenuSchema = opcionMenuSchema.omit({ id: true });
+
+const crearMenuBodySchema = z.union([
+  crearOpcionMenuSchema,
+  z.array(crearOpcionMenuSchema).min(1, "Debe enviar al menos una opción en el arreglo"),
+]);
+
 module.exports = {
   idParamSchema,
   depthParamSchema,
   menuBodySchema,
+  crearOpcionMenuSchema,
+  crearMenuBodySchema,
+};
+
+module.exports = {
+  idParamSchema,
+  depthParamSchema,
+  menuBodySchema,
+  crearOpcionMenuSchema
 };

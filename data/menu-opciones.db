@@ -12,7 +12,7 @@
 {"_id":"46","parent":"0:en-US","depth":1,"name":"Betterware Account","numContents":2,"numContentsDescendants":2,"slug":"invita-y-gana/cuenta-betterware","order":11,"culture":"en-US","isActive":true,"actionType":"obtener-contenidos","icon":"fa-solid fa-house"}
 {"_id":"47","parent":"0","depth":1,"name":"Cuenta Broxel","numContents":2,"numContentsDescendants":2,"slug":"invita-y-gana/cuenta-broxel","order":12,"culture":"es-MX","isActive":true,"actionType":"show-get-code","icon":"fa-solid fa-credit-card"}
 {"_id":"48","parent":"0:en-US","depth":1,"name":"Broxel Account","numContents":2,"numContentsDescendants":2,"slug":"invita-y-gana/cuenta-broxel","order":13,"culture":"en-US","isActive":true,"actionType":"show-get-code","icon":"fa-solid fa-credit-card"}
-{"_id":"0","parent":"46","depth":0,"name":"Otros Bancos","numContents":0,"numContentsDescendants":0,"slug":"metal slug","order":0,"culture":"es-MX","isActive":true}
+{"_id":"49","parent":"45","depth":0,"name":"Otros Bancos","numContents":0,"numContentsDescendants":0,"slug":"metal slug","order":0,"culture":"es-MX","isActive":true}
 {"_id":"0","parent":null,"depth":0,"name":"root","numContents":0,"numContentsDescendants":65,"slug":"","order":0,"culture":"es-MX","isActive":true}
 {"_id":"0:en-US","parent":null,"depth":0,"name":"root","numContents":0,"numContentsDescendants":65,"slug":"","order":1,"culture":"en-US","isActive":true}
 {"_id":"34","parent":"0","depth":1,"name":"¿Quiénes somos?","numContents":1,"numContentsDescendants":1,"slug":"quienes-somos","order":0,"culture":"es-MX","isActive":false}
@@ -27,3 +27,4 @@
 {"_id":"46","parent":"0:en-US","depth":1,"name":"Betterware Account","numContents":2,"numContentsDescendants":2,"slug":"invita-y-gana/cuenta-betterware","order":11,"culture":"en-US","isActive":true,"actionType":"obtener-contenidos","icon":"fa-solid fa-house"}
 {"_id":"47","parent":"0","depth":1,"name":"Cuenta Broxel","numContents":2,"numContentsDescendants":2,"slug":"invita-y-gana/cuenta-broxel","order":12,"culture":"es-MX","isActive":true,"actionType":"show-get-code","icon":"fa-solid fa-credit-card"}
 {"_id":"48","parent":"0:en-US","depth":1,"name":"Broxel Account","numContents":2,"numContentsDescendants":2,"slug":"invita-y-gana/cuenta-broxel","order":13,"culture":"en-US","isActive":true,"actionType":"show-get-code","icon":"fa-solid fa-credit-card"}
+{"$$deleted":true,"_id":"49"}
