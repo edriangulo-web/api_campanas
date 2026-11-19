@@ -12,18 +12,6 @@
     "isActive": true
   },
   {
-    "id": "50",
-    "parent": "0",
-    "depth": 0,
-    "name": "root",
-    "numContents": 0,
-    "numContentsDescendants": 65,
-    "children": ["34", "1", "3", "2", "23", "40", "41", "43"],
-    "slug": "",
-    "culture": "en-US",
-    "isActive": true
-  },
-  {
     "id": "34",
     "parent": "0",
     "depth": 1,
@@ -131,7 +119,7 @@
     "culture": "es-MX",
     "isActive": true,
     "actionType": "obtener-contenidos",
-    "icon" : "fa-solid fa-house"
+    "icon": "fa-solid fa-house"
   },
   {
     "id": "46",
@@ -145,7 +133,7 @@
     "culture": "en-US",
     "isActive": true,
     "actionType": "obtener-contenidos",
-    "icon" : "fa-solid fa-house"
+    "icon": "fa-solid fa-house"
   },
   {
     "id": "47",
@@ -159,7 +147,8 @@
     "culture": "es-MX",
     "isActive": true,
     "actionType": "show-get-code",
-    "icon" : "fa-solid fa-credit-card"
+    "icon": "fa-solid fa-credit-card",
+    "campaign" : "Cuenta Broxel Dev"
   },
   {
     "id": "48",
@@ -173,6 +162,71 @@
     "culture": "en-US",
     "isActive": true,
     "actionType": "show-get-code",
-    "icon" : "fa-solid fa-credit-card"
+    "icon": "fa-solid fa-credit-card",
+    "campaign" : "Cuenta Broxel Dev"
+  },
+  {
+    "id": "50",
+    "parent": "0",
+    "depth": 0,
+    "name": "root",
+    "numContents": 0,
+    "numContentsDescendants": 65,
+    "children": ["41", "46", "48"],
+    "slug": "",
+    "culture": "en-US",
+    "isActive": true
+  },
+  {
+    "id": "51",
+    "parent": "0",
+    "depth": 0,
+    "name": "root",
+    "numContents": 0,
+    "numContentsDescendants": 65,
+    "children": ["52", "53"],
+    "slug": "",
+    "culture": "es-US",
+    "isActive": true
+  },
+  {
+    "id": "52",
+    "parent": "0",
+    "depth": 1,
+    "name": "Cuenta Betterware",
+    "numContents": 2,
+    "numContentsDescendants": 2,
+    "children": [],
+    "slug": "invita-y-gana\/cuenta-betterware",
+    "culture": "es-US",
+    "isActive": true,
+    "actionType": "obtener-contenidos",
+    "icon": "fa-solid fa-house"
+  },
+  {
+    "id": "53",
+    "parent": "0",
+    "depth": 1,
+    "name": "Cuenta Broxel",
+    "numContents": 2,
+    "numContentsDescendants": 2,
+    "children": [],
+    "slug": "invita-y-gana\/cuenta-broxel",
+    "culture": "es-US",
+    "isActive": true,
+    "actionType": "show-get-code",
+    "icon": "fa-solid fa-credit-card"
+  },
+  {
+    "id": "54",
+    "parent": "0",
+    "depth": 1,
+    "name": "Invita y gana",
+    "numContents": 2,
+    "numContentsDescendants": 4,
+    "children": [],
+    "slug": "invita-y-gana",
+    "culture": "es-US",
+    "isActive": false
   }
 ]
