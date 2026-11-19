@@ -215,7 +215,8 @@
     "culture": "es-US",
     "isActive": true,
     "actionType": "show-get-code",
-    "icon": "fa-solid fa-credit-card"
+    "icon": "fa-solid fa-credit-card",
+    "campaign" : "Cuenta Broxel Dev"
   },
   {
     "id": "54",
